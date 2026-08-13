@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Website header and navigation-->
+      <header>
+        <img src="images/barbershop logo.jpg" alt="Prime Fade Studio logo" class="logo">
+        <h1>Prime Fade Studio</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="enquiry.html"> Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+
+    </header>
+    <main>
+        <h2>Book an Appointment</h2>
+        <p>
+            Complete the form below and a member of our team will contact you to confirm your appointment.
+        </p>
+        <!--Appointment enquiry form-->
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email Adress:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="service">Select Service:</label>
+            <select id="service" name="service" required>
+                <option value="classic">Classic Haircut</option>
+                <option value="taper">Taper Fade</option>
+                <option value="skin">Skin Fade</option>
+                <option value="beard">Beard Trim</option>
+                <option  value="package">Haircut and Beard Package</option>
+            </select>
+            <br><br>
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+            <br><br>
+            <label for="message">Additional Information:</label>
+            <br>
+            <textarea id="message"name="message" rows="6" cols="40"></textarea>
+            <br><br>
+            <button type="submit" >"Submit Enquiry"</button>
+        </form>
+    </main>
+    <!--Website footer-->
+    <footer>
+    <p> 2026 Prime Fade Studio </p>
+    <p>Rosebank | Sandton | Johannesburg</p>
+</footer>
+</body>
+</html>
