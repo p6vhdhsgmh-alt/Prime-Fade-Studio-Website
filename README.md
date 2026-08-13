@@ -91,8 +91,12 @@ resources will be referenced using the Harvard-Anglia
 referencing style adapted for The IIE.
 ## Sitemap
 Prime Fade Studio Website
+
 Home> 
 - About Us 
 - Services
 - Enquiry
 - Contact
+
+## GitHub Respository
+Repository : https://github.com/p6vhdhsgmh-alt/Prime-Fade-Studio-Website
