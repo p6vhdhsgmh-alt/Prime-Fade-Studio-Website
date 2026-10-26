@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Our Services | Prime Fade Studio</title>
+    <meta name="description" content="Explore Prime Fade Studio's haircut, taper fade, skin fade and beard trimming services, with prices for every style.">
+    <meta name="keywords" content="barber services Johannesburg, classic haircut, taper fade, skin fade, beard trim, haircut prices">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -27,6 +29,9 @@
         <p>
             At Prime Fade Studio, we offer professional haircuts and grooming services designed to suit every customer.
         </p>
+        <label for="service-search">Search for a service:</label>
+        <input type="text" id="service-search" placeholder="e.g. Skin Fade">
+        <p id="search-message"></p>
     <!--Individual service-->
        <div class="service-card">
         <h3>Classic Haircut</h3>
@@ -82,5 +87,11 @@
     <p> 2026 Prime Fade Studio </p>
     <p>Rosebank | Sandton | Johannesburg</p>
 </footer>
+<escape><div id="image-lightbox" style="display: none;">
+    <button type="button" id="close-lightbox">Close</button>
+    <img id="lightbox-image" src="" alt="">
+</div>
+
+<script src="js/services.js"></script>
 </body>
-</html>
+</html></escape> 

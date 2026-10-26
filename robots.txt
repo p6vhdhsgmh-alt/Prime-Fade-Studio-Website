@@ -1,0 +1,4 @@
+User-agent : *
+Allow: /
+
+Sitemap: https://p6vhdhsgmh-alt.github.io/Prime-Fade-Studio-Website/sitemap.xml

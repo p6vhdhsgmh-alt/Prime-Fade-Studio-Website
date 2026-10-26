@@ -130,6 +130,33 @@ The website was tested at desktop, tablet and mobile screen sizes using browser 
 #### Mobile
 [Mobile screenshot]- (images/Mobile Phone.png)
 
+### Version 3.0 - Part 3
+
+Part 3 focused on improving website functionality, form validation, search features and search engine optimisation (SEO).
+
+#### JavaScript Functionality
+- Added a service search feature to help users find services.
+- Added an image lightbox that allows users to view service images in a larger display.
+- Added JavaScript validation to the service enquiry form.
+- Added service price information to the enquiry submission.
+- Added preferred-date validation to prevent selecting a date in the past.
+- Connected the enquiry form to FormSubmit for email submission.
+- Added JavaScript validation to the contact form.
+- Added functionality to prepare a contact message in Gmail, allowing the user to review and send it.
+
+#### SEO Improvements
+- Added meta descriptions and keywords to all five HTML pages.
+- Updated page titles to describe each page.
+- Added robots.txt to specify search engine crawling instructions.
+- Added sitemap.xml containing the five website pages.
+- Updated the sitemap and robots.txt URLs for the GitHub Pages deployment.
+
+#### Testing
+- Tested the service search using matching and non-matching search terms.
+- Tested opening and closing the service image lightbox.
+- Tested the enquiry form and confirmed that a test submission reached the recipient email.
+- Tested the contact form and confirmed that it opened a pre-filled Gmail message.
+- Checked that the forms display validation messages for incorrect or missing information.
 
 ## References
 All sources used for website content, images and other
@@ -164,6 +191,16 @@ Gettyimages(n.d.) Barber Shop Africa Stock videos and Footage. Available at:
 Magnific(n.d.) barber shop vintage logo design. Available at: 
  https://www.magnific.com/premium-vector/barber-shop-vintage-logo-design_14057505.htm 
 (Accessed 12 August 2026)
+
+FormSubmit (n.d.) *FormSubmit: Easy form endpoints for your HTML forms*. Available at: https://formsubmit.co/
+ (Accessed: 26 October 2026).
+ Google (n.d.) *SEO Starter Guide*. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide 
+(Accessed: 26 October 2026).
+ GitHub (n.d.) *What is GitHub Pages?* Available at: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages 
+(Accessed: 26 October 2026).
+ MDN Web Docs (n.d.) *HTML forms*. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms
+ (Accessed: 26 October 2026).
+
 
 ## Sitemap
 Prime Fade Studio Website

@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us | Prime Fade Studio</title>
+    <meta name="description" content="Contact Prime Fade Studio for questions about our barber services, locations, opening hours and appointments in Johannesburg.">
+    <meta name="keywords" content="contact Prime Fade Studio, Johannesburg barbershop contact, barber opening hours, barber location">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -68,16 +70,30 @@
         </div>
         <div class="contact-section">
         <h3>Send us a message</h3>
-        <form>
+        <escape><form>
             <label for="contact-name">Name:</label>
-            <input type="text" id="contact-name"name="contact-name">
+            <input type="text" id="contact-name" name="contact-name" required minlength="2" maxlength="50">
+            <p id="contact-name-error"></p>
             <label for="contact-email">Email:</label>
-            <input type="email" id="contact-email" name="contact-email">
+            <input type="email" id="contact-email" name="contact-email" required>
+            <p id="contact-email-error"></p>
+            
+            <label for="message-type">Type of Message:</label>
+            <select id="message-type" name="message-type" required>
+                <option value="">-- Select Message Type --</option>
+                <option value="general">General Question</option>
+                <option value="services">Question About Services</option>
+                <option value="compliment">Feedback or Compliment</option>
+                <option value="complaint">Complaint</option>
+                <option value="other">Other</option>
+            </select>
+            <p id="message-type-error"></p>
             <label for="contact-message">Message:</label>
-            <textarea id="contact-message" name="contact-message" rows="6" cols="40"></textarea>
-            <input type="submit" value="Send Message">
-
-        </form>
+            <textarea id="contact-message" name="contact-message" rows="6" maxlength="1000" required minlength="10"></textarea>
+            <p id="contact-message-error"></p>
+            <button type="submit">Send Message</button>
+            <p id="contact-response"></p>
+        </form></escape>
         </div>
 
     </main>  
@@ -86,5 +102,6 @@
     <p> 2026 Prime Fade Studio </p>
     <p>Rosebank | Sandton | Johannesburg</p>
 </footer>
+<script src="js/contact.js"></script>
 </body> 
 </html>
